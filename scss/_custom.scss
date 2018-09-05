@@ -149,3 +149,7 @@ footer{
 #prog{
 	width: 80%;
 }
+
+input[type=checkbox]:checked + label.strikethrough{
+	text-decoration: line-through;
+  }
