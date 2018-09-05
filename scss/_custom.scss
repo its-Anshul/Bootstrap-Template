@@ -1,0 +1,151 @@
+$color_1: darkgrey;
+$color_2: #0d52cb;
+$color_3: darkblue;
+$color_4: black;
+$color_5: grey;
+$background_color_1: #ededed4d;
+$background_color_2: transparent;
+$background_color_3: #346498;
+$background_color_4: rgb(233,234,235);
+
+@mixin overflow{
+	overflow-x: hidden;
+}
+
+body {
+	background-color: $background_color_1;
+}
+.navbar {
+	padding-left: 20%;
+	position: fixed;
+	width: 100%;
+	top:0;
+	z-index: 10000;
+}
+.navbar-nav1 {
+	width: 70%;
+	height: auto;
+	margin: auto;
+}
+.inset {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	//box-shadow: inset 0 0 0 2px rgba(255,255,255,0.6), 0 1px 1px rgba(0,0,0,0.1);
+	background-color: $background_color_2 !important;
+	z-index: 999;
+	@include overflow;
+	margin-right: 5px;
+	img {
+		border-radius: inherit;
+		width: inherit;
+		height: inherit;
+		display: block;
+		position: relative;
+		z-index: 998;
+	}
+}
+.logo {
+	height: 64px;
+	width: 18%;
+	position: fixed;
+	z-index: 10001;
+	top: 0;
+	left: 0;
+	background-color: $background_color_3;
+	@include overflow;
+}
+.sidenav {
+	padding-left: 0px;
+	height: 100%;
+	width: 18%;
+	position: fixed;
+	z-index: 10000;
+	top: 0;
+	left: 0;
+	background-color: $background_color_4;
+	@include overflow;
+	padding-top: 80px;
+	color: $color_4;
+	a {
+		color: $color_1;
+		font-weight: 800;
+		font-size: 20;
+		z-index: 1000000;
+		opacity: 1;
+		&:hover {
+			color: $color_2;
+		}
+	}
+}
+#active {
+	color: $color_3;
+}
+.list-group-item1 {
+	text-decoration: none;
+	padding-left: 16px;
+	color: $color_5;
+}
+.list-group-item2 {
+	text-decoration: none;
+	padding-left: 22px;
+	color: $color_5;
+}
+main {
+	margin-left: 18%;
+	padding-top: 60px;
+	padding-left: 10px;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-bottom: 1rem;
+}
+#pop {
+	background-color: $background_color_2;
+	color: $color_4;
+	font-size: 10;
+	border:0;
+	margin-left: 10px;
+	
+}
+
+#rowcard{
+	margin-top:20px;
+	width: 100%;
+}
+
+footer{
+	margin-top:10px;
+}
+
+
+@media only screen and (max-width: 992px) {
+    body {
+        background-color: lightblue;
+	}
+	.sidenav{
+		display:none;
+	}
+	main{
+		width: 100%;
+		margin-left:0;
+	}
+	.logo{
+		height: 56px;
+	}
+}
+
+#inline1{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	@include overflow;
+	margin-bottom: 20px;
+}
+
+#prog{
+	width: 80%;
+}
