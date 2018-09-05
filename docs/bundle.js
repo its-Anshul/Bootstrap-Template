@@ -119,6 +119,17 @@ eval("module.exports = __webpack_require__.p + \"img/graph1.png\";\n\n//# source
 
 /***/ }),
 
+/***/ "./img/logo.png":
+/*!**********************!*\
+  !*** ./img/logo.png ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/logo.png\";\n\n//# sourceURL=webpack:///./img/logo.png?");
+
+/***/ }),
+
 /***/ "./index.js":
 /*!******************!*\
   !*** ./index.js ***!
@@ -127,7 +138,7 @@ eval("module.exports = __webpack_require__.p + \"img/graph1.png\";\n\n//# source
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/index.scss */ \"./scss/index.scss\");\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_index_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _img_avatar1_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/avatar1.png */ \"./img/avatar1.png\");\n/* harmony import */ var _img_avatar1_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_img_avatar1_png__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _img_graph_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/graph.png */ \"./img/graph.png\");\n/* harmony import */ var _img_graph_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_img_graph_png__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _img_graph1_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/graph1.png */ \"./img/graph1.png\");\n/* harmony import */ var _img_graph1_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_img_graph1_png__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\n\n$(function () {\n    $('[data-toggle=\"popover\"]').popover()\n  })\n\n  $('.collapse').collapse()\n\n//# sourceURL=webpack:///./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/index.scss */ \"./scss/index.scss\");\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_index_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _img_avatar1_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/avatar1.png */ \"./img/avatar1.png\");\n/* harmony import */ var _img_avatar1_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_img_avatar1_png__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _img_graph_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/graph.png */ \"./img/graph.png\");\n/* harmony import */ var _img_graph_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_img_graph_png__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _img_graph1_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/graph1.png */ \"./img/graph1.png\");\n/* harmony import */ var _img_graph1_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_img_graph1_png__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _img_logo_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./img/logo.png */ \"./img/logo.png\");\n/* harmony import */ var _img_logo_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_img_logo_png__WEBPACK_IMPORTED_MODULE_5__);\n\n\n\n\n\n\n\n$(function () {\n    $('[data-toggle=\"popover\"]').popover()\n  })\n\n  $('.collapse').collapse()\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
